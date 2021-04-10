@@ -1,0 +1,21 @@
+/* .home { */
+  /* position: relative; */
+/* } */
+
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  background-color: var(--dark);
+  border: white solid 1px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+
+.scroll-to-top-btn:hover {
+  transform: scale(1.1);
+}
