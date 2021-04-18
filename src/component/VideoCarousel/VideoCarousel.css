@@ -1,0 +1,36 @@
+.c-main {
+  display: flex;
+  padding: 10px;
+  height: 85%;
+}
+
+.c {
+  display: flex;
+  align-items: flex-start;
+}
+
+.c-child {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.des-card {
+  margin-right: 50px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1000px) {
+  .c {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .des-card {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}

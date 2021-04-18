@@ -4,7 +4,7 @@ const AboutMe = (props) => {
     return (
         <div {...props} className='full-container jc-center ai-center relative about-me' >
             <span className='typography'>About Me.</span>
-            <span className='circle'/>
+            <span className='circle' />
             <div className='card' >
                 <div className='card-wrapper' >
                     <h1>about me<span className='cursor-blink' >_</span></h1>

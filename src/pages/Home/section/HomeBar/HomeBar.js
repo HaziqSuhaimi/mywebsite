@@ -21,8 +21,8 @@ const HomeBar = ({ sections = [] }) => {
         <div className='navbar' >
             <div className='navbar-wrapper container' >
                 <h1 onClick={() => handleGoToSection(0)} className='home-btn' >
-                    <span className='btn' >hahahaziq</span>
                     <span className='cursor-blink' >_</span>
+                    <span className='btn' >hahahaziq</span>
 
                 </h1>
                 <div className='section-tab-wrapper' >

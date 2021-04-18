@@ -1,4 +1,4 @@
-import { AboutMe, Greeting, HomeBar } from "./section"
+import { AboutMe, Greeting, HomeBar, Portfolio } from "./section"
 import './Home.css'
 
 const sections = [
@@ -14,8 +14,8 @@ const sections = [
     },
     {
         id: 2,
-        name: "About Me",
-        comp: <AboutMe />
+        name: "Portfolio",
+        comp: <Portfolio />
     }
 ]
 

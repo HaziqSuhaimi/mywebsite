@@ -1,0 +1,62 @@
+.about-me {
+  background-color: whitesmoke;
+  z-index: 0;
+}
+
+.typography-opp {
+  font-size: 20rem;
+  color: var(--dark);
+  width: 50vh;
+  height: 50vh;
+  border: var(--dark) solid 10px;
+  word-wrap: break-word;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 10rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: -1;
+}
+
+.circle-opp {
+  width: 50vh;
+  height: 50vh;
+  background-color: var(--dark);
+  position: absolute;
+  bottom: -25vh;
+  left: 25px;
+  z-index: -1;
+  border-radius: 50%;
+}
+
+.card {
+  background-color: #ffffffcc;
+  width: 75%;
+  height: 75%;
+  border-radius: 3px;
+  border: solid var(--dark) 3px;
+  text-align: right;
+  display: flex;
+}
+
+.c-wrapper {
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .typography {
+    width: 100vw;
+    height: 100vw;
+    font-size: 20rem;
+  }
+
+  .card {
+    text-align: center;
+  }
+}
