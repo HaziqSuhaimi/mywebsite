@@ -1,10 +1,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react'
-import SwiperCore, { Scrollbar } from 'swiper';
+import SwiperCore, { Scrollbar, Autoplay, Mousewheel, Keyboard } from 'swiper';
 
 import './VideoCarousel.css'
 import 'swiper/swiper-bundle.min.css'
 
-SwiperCore.use([Scrollbar]);
+SwiperCore.use([Scrollbar, Autoplay, Mousewheel, Keyboard]);
 
 const VideoCarousel = ({ data }) => {
     return (
@@ -13,6 +13,9 @@ const VideoCarousel = ({ data }) => {
                 spaceBetween={50}
                 slidesPerView={1}
                 scrollbar={{ draggable: true }}
+                autoplay={{ disableOnInteraction: false, delay: 9000 }}
+                mousewheel
+                keyboard
             >
                 {
                     data.video_list.map(({ url, title }, key) => (

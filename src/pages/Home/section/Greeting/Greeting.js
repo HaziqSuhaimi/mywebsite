@@ -6,9 +6,9 @@ const Greeting = (props) => {
         <div {...props} className='full-container jc-center ai-center relative' >
             <img src={bg} alt='my-bg' className='img-bg' />
             <div className='greeting-title-wrapper' >
-                <h1 className='greeting-title' >
+                <h1 className='greeting-title noselect' >
                     <span>hello there!</span><br />
-                    <span>this is haziq suhaimi.</span>
+                    <span>it's haziq suhaimi.</span>
                     <span className='cursor-blink' >_</span>
                 </h1>
             </div>

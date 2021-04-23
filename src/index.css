@@ -8,6 +8,16 @@ body {
   overflow-x: hidden;
 }
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -17,6 +27,7 @@ code {
   display: flex;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 .jc-center {
@@ -48,12 +59,12 @@ code {
   margin-right: 10%;
 }
 
-.btn{
+.btn {
   cursor: pointer;
 }
 
 :root {
-  --glow-yellow: #fdeca2;
+  --glow-yellow: #f5e187;
   --dark: #302f2f;
 }
 
