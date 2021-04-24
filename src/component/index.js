@@ -1,7 +1,7 @@
-import Icon from "./Icon"
+import RelationChart from "./RelationChart/RelationChart"
 import VideoCarousel from "./VideoCarousel/VideoCarousel"
 
 export {
-    Icon,
-    VideoCarousel
+    VideoCarousel,
+    RelationChart
 }

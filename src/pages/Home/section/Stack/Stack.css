@@ -1,0 +1,8 @@
+.rc-wrapper {
+  overflow: hidden;
+  flex: 1;
+}
+
+.rc-title {
+  margin-right: 30px;
+}

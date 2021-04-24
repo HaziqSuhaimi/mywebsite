@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Icon } from '../../../../component'
+import { IoArrowUp } from 'react-icons/io5'
 import './HomeBar.css'
 
 const HomeBar = ({ sections = [] }) => {
@@ -36,7 +36,7 @@ const HomeBar = ({ sections = [] }) => {
             {
                 scrollTo > 0 &&
                 <button className='scroll-to-top-btn' onClick={() => handleGoToSection(0)} >
-                    <Icon name='arrow-bar-up' size={25} />
+                    <IoArrowUp color='white' size={25} />
                 </button>
             }
         </div>

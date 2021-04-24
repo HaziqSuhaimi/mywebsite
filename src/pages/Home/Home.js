@@ -1,4 +1,4 @@
-import { AboutMe, Greeting, HomeBar, Portfolio } from "./section"
+import { AboutMe, Greeting, HomeBar, Portfolio, Stack } from "./section"
 import './Home.css'
 
 const sections = [
@@ -16,6 +16,11 @@ const sections = [
         id: 2,
         name: "Portfolio",
         comp: <Portfolio />
+    },
+    {
+        id: 3,
+        name: "Stacks",
+        comp: <Stack />
     }
 ]
 
@@ -24,7 +29,7 @@ const Home = () => {
         <div className='home' >
             <HomeBar sections={sections} />
             {
-                sections.map(({ comp }) => comp)
+                sections.map(({ comp }, key) => <span key={key} >{comp}</span>)
             }
         </div>
     )
