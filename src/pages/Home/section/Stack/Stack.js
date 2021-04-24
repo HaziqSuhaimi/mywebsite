@@ -1,9 +1,9 @@
 import { renderToString } from 'react-dom/server'
-import { IoLogoJavascript, DiMongodb, ImStack, GrReactjs, FaNodeJs, FaHtml5, FaCss3, FaReact, FaAndroid, FaApple, SiPostgresql, SiCss3 } from 'react-icons/all'
+import { IoLogoJavascript, DiMongodb, ImStack, GrReactjs, FaNodeJs, FaHtml5, FaCss3, FaReact, FaAndroid, FaApple, SiPostgresql, SiCss3, FaDocker, FaAws, FaGit, FaStackExchange, FaPython, SiArduino, FaCode } from 'react-icons/all'
 import { RelationChart } from '../../../../component'
 import './Stack.css'
 
-const NODE_SIZE = 20
+const NODE_SIZE = 15
 const ICON_COLOR = '#302f2f'
 const DOUBLE_NODE_SIZE = NODE_SIZE * 4
 const config = {
@@ -103,6 +103,36 @@ const data = {
             avatar: renderToString(<SiPostgresql size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
             group: 1,
             role_id: 15
+        }, {
+            name: "Stack",
+            avatar: renderToString(<FaCode size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 16
+        }, {
+            name: "Docker",
+            avatar: renderToString(<FaDocker size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 17
+        }, {
+            name: "AWS",
+            avatar: renderToString(<FaAws size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 18
+        }, {
+            name: "GIT",
+            avatar: renderToString(<FaGit size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 19
+        }, {
+            name: "Arduino",
+            avatar: renderToString(<SiArduino size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 20
+        }, {
+            name: "Python",
+            avatar: renderToString(<FaPython size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 21
         }
     ],
     links: [
@@ -194,6 +224,36 @@ const data = {
         }, {
             source: 14,
             target: 15,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 17,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 18,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 19,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 0,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 20,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 21,
             relation: "lol",
             color: "734646"
         }
