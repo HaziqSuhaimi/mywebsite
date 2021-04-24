@@ -203,7 +203,7 @@ export default class RelationChart {
             .style("marker-end", "url(#marker)")
 
             .attr('stroke', (d) => {
-                var str = d.color ? "#" + d.color : this.config.linkColor;
+                // var str = d.color ? "#" + d.color : this.config.linkColor;
                 return this.config.linkColor;
             });
 

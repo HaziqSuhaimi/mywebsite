@@ -1,5 +1,5 @@
 import { renderToString } from 'react-dom/server'
-import { IoLogoJavascript, DiMongodb, ImStack, GrReactjs, FaNodeJs, FaHtml5, FaCss3, FaReact, FaAndroid, FaApple, SiPostgresql, SiCss3, FaDocker, FaAws, FaGit, FaStackExchange, FaPython, SiArduino, FaCode } from 'react-icons/all'
+import { IoLogoJavascript, DiMongodb, GrReactjs, FaNodeJs, FaHtml5, FaReact, FaAndroid, FaApple, SiPostgresql, SiCss3, FaDocker, FaAws, FaGit, FaPython, SiArduino, FaCode } from 'react-icons/all'
 import { RelationChart } from '../../../../component'
 import './Stack.css'
 
