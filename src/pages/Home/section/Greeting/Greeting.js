@@ -8,7 +8,7 @@ const Greeting = (props) => {
             <div className='greeting-title-wrapper' >
                 <h1 className='greeting-title noselect' >
                     <span>hello there!</span><br />
-                    <span>it's haziq suhaimi.</span>
+                    <span>it's me haziq</span>
                     <span className='cursor-blink' >_</span>
                 </h1>
             </div>

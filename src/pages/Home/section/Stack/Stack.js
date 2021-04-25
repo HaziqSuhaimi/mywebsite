@@ -1,5 +1,5 @@
 import { renderToString } from 'react-dom/server'
-import { IoLogoJavascript, DiMongodb, GrReactjs, FaNodeJs, FaHtml5, FaReact, FaAndroid, FaApple, SiPostgresql, SiCss3, FaDocker, FaAws, FaGit, FaPython, SiArduino, FaCode } from 'react-icons/all'
+import { IoLogoJavascript, DiMongodb, GrReactjs, FaNodeJs, FaHtml5, FaReact, FaAndroid, FaApple, SiPostgresql, SiCss3, FaDocker, FaAws, FaGit, FaPython, SiArduino, FaCode, DiRedis, GiAmberMosquito, FaLinux } from 'react-icons/all'
 import { RelationChart } from '../../../../component'
 import './Stack.css'
 
@@ -133,6 +133,21 @@ const data = {
             avatar: renderToString(<FaPython size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
             group: 2,
             role_id: 21
+        }, {
+            name: "Redis",
+            avatar: renderToString(<DiRedis size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 22
+        }, {
+            name: "MQTT",
+            avatar: renderToString(<GiAmberMosquito size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 23
+        }, {
+            name: "Linux",
+            avatar: renderToString(<FaLinux size={DOUBLE_NODE_SIZE} color={ICON_COLOR} />),
+            group: 2,
+            role_id: 24
         }
     ],
     links: [
@@ -254,6 +269,21 @@ const data = {
         }, {
             source: 16,
             target: 21,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 22,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 23,
+            relation: "lol",
+            color: "734646"
+        }, {
+            source: 16,
+            target: 24,
             relation: "lol",
             color: "734646"
         }
